@@ -128,6 +128,21 @@ export const PROFILES = [
     },
   },
   {
+    name: "Rawan S.",           // ton prénom + initiale du nom
+    accent: "#f5a623",           // couleur de ton profil (voir palette ci-dessous)
+    search: "Alternance",        // type de contrat recherché : "Alternance", "Stage", "CDI"
+    role: "Développeur Fullstack",       // ton intitulé de poste
+    rhythm: "4j / 1j",   // rythme d'alternance (ou "" si pas concerné)
+    available: "décembre 2026",     // date de disponibilité
+    avatar: "/avatars/rawan_safouan.jpg",  // chemin vers ta photo (étape 2)
+    stack: [
+      { name: "Python", icon: "devicon-python-plain" },
+      { name: "C", icon: "devicon-c-plain" },
+    ],
+    quote: "Je réponds dès que ce bug cesse d'être plus intelligent que moi.",
+    links: {
+      linkedin: "https://www.linkedin.com/in/teima-rawan-safouan-7502442b1",
+      github: "https://github.com/rawan-holberton",
     name: "Saniez S.",           // ton prénom + initiale du nom
     accent: "#ff6a00",           // couleur de ton profil (voir palette ci-dessous)
     search: "CDD, CDI",        // type de contrat recherché : "Alternance", "Stage", "CDI"
